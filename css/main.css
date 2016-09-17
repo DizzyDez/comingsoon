@@ -19,6 +19,8 @@
 }
 
 header {
+  font-family: 'Nixie One', cursive;
+
   background-color: #fdfdfd;
   border: #565656;
   height: 44px;
@@ -26,7 +28,6 @@ header {
   line-height: 44px;
   color: #565656;
   font-size: small;
-  font-weight: 100;
   padding-left: 5%;
 }
 
@@ -50,7 +51,7 @@ footer {
 	clear: both;
 }
 body  {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	background-image: url(../img/bwstripes.jpg);
   background-repeat: no-repeat;
@@ -64,7 +65,8 @@ body  {
   border-radius: 20px;
 }
 .logo {
-  width: 80px;
+  width: 70px;
   padding: 10px;
   background-color: #fff;
+  margin-left: 10%;
 }
