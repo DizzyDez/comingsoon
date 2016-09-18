@@ -10,23 +10,21 @@
   margin: auto;
   width: 400px;
   padding: 80px;
-  margin-top: 4em;
+  margin-top: 2.5em;
   background-color: #000;
   border: 5px solid #fdfdfd;
   color: #fff;
   border-radius: 1000px;
-  position: relative;
 }
 
 header {
   font-family: 'Nixie One', cursive;
 
   background-color: #fdfdfd;
-  border: #565656;
+  border-bottom: 2px solid #636363;
   height: 44px;
   vertical-align: middle;
   line-height: 44px;
-  color: #565656;
   font-size: small;
   padding-left: 5%;
 }
@@ -37,6 +35,8 @@ header {
   position: absolute;
   left: 50%;
 }
+
+
 footer {
 	background-color: #000;
 	color: #fff;
@@ -63,10 +63,34 @@ body  {
 .contactbtns {
   width: 30px;
   border-radius: 20px;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
+
+.contactbtns:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.head-icon {
+  float: right;
+  line-height: 44px;
+  margin-right: 20px;
+}
+
+.head-icon .contactbtns {
+  width: 20px;
+  margin-left: 20px;
+  line-height: 44px;
+  vertical-align: middle;
+
+}
+
 .logo {
   width: 70px;
   padding: 10px;
   background-color: #fff;
-  margin-left: 10%;
 }
