@@ -8,7 +8,7 @@
 
 .container {
   margin: auto;
-  width: 400px;
+  width: 390px;
   padding: 80px;
   margin-top: 2.5em;
   background-color: #000;
@@ -50,6 +50,7 @@ footer {
 	padding-bottom: 5px;
 	clear: both;
 }
+
 body  {
   font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -60,6 +61,11 @@ body  {
   overflow-x: hidden;
   margin: 0;
 }
+
+h1 {
+
+}
+
 .contactbtns {
   width: 30px;
   border-radius: 20px;
@@ -78,19 +84,23 @@ body  {
 .head-icon {
   float: right;
   line-height: 44px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .head-icon .contactbtns {
   width: 20px;
   margin-left: 20px;
+  margin-right: 20px;
   line-height: 44px;
   vertical-align: middle;
 
 }
 
 .logo {
-  width: 70px;
-  padding: 10px;
+  width: 50px;
+  padding: 12px;
+  margin-right: 12px;
   background-color: #fff;
+  float: left;
 }
